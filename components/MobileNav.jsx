@@ -14,7 +14,7 @@ const MobileNav = () => {
         </SheetTrigger>
         <SheetContent
           side="left"
-          className="bg-neutral-900 border-none"
+          className="bg-neutral-900 border-none p-2 overflow-y-scroll md:overflow-y-hidden"
         >
           <Navbar show={true} />
         </SheetContent>
